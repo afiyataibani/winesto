@@ -1,0 +1,318 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: speical;
+    src: url(../fonts/Anticva-Regular.woff2);
+}
+
+:root{
+    --primary:#bd9e5e;
+}
+
+.py-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.pt-100{
+  padding-top: 100px;
+}
+
+
+.pb-100{
+  padding-bottom: 100px;
+}
+
+.pt-150{
+  padding-top: 150px;
+}
+
+.pb-150{
+  padding-bottom: 150px;
+}
+
+/* Navbar */
+
+.nav-link:hover{
+  color:var(--primary) !important;
+}
+
+/* Main-banner */
+
+.main-banner .main-btn:hover{
+    background-color: var(--primary) !important;
+}
+
+/* Our Shop */
+
+.our-shop{
+    background-image: url(../images/grape1.avif);
+    background-position: 0px 169px;
+    background-repeat: no-repeat;
+}
+
+.grape2{
+    background-image: url(../images/grape2.avif);
+    background-position: 100% 99%;
+    background-repeat: no-repeat;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+ .p-1{
+   overflow: hidden;
+ }
+
+  .pro {
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+    margin-bottom: 50px;
+  }
+  
+  .pro .hover-img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    opacity:0;
+  }
+
+  .pro:hover .hover-img {
+    opacity:1;
+    transition:all 0.7s linear;
+  }
+  
+  .pro .p-1 img{
+    width: 100%;
+    display: block;
+  }
+
+  .discount{
+    padding: 2px 8px;
+    background-color:#f7525a;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .sale{
+    color:white;
+  }
+
+  .p-title{
+    font-family:special;
+    cursor:pointer;
+  }
+
+  .p-title:hover{
+    color:var(--primary);
+  }
+
+  .review{
+    font-size: 12px;
+  }
+
+  /* Story */
+
+  .mbu:hover{
+    background-color:  #2E2829 !important;
+  }
+
+  .est h2{
+    font-size: 130px !important;
+    line-height: 100px;
+    letter-spacing: -1px;
+    position: absolute;
+    bottom: 52px;
+  }
+
+  .est{
+    left: 45%;
+  }
+
+  /* Testimonials */
+
+  .buyer{
+    left:78px;
+    top:40px;
+  }
+
+  /* Club */
+
+  .club-photos img:hover{
+    scale: 1.05;
+    transition: all 0.2s linear;
+  }
+
+  /* Brands */
+
+  .brand .brands img{
+    opacity:0.5;
+    cursor: pointer;
+  }
+
+  .brand .brands img:hover{
+    opacity: 1;
+  }
+
+  /* Making Process */
+
+  .tour .tour-btn{
+    color:black !important;
+  }
+
+  .tour .tour-btn:hover{
+    background-color: black !important;
+    color:white !important;
+  }
+
+  /* contact */
+
+  .contact .contactform .form-group {
+    margin-bottom: 30px;
+}
+
+.contact .contactform input[type=email]{
+    width: 100%;
+    background:#2e2829;
+    color: #fff;
+    padding: 11px 26px;
+    border: none;;
+}
+
+.subs:hover{
+  color:var(--primary) !important;
+  background-color: white !important;
+}
+
+.contact ul li{
+  cursor:pointer;
+}
+
+.contact ul li:hover{
+  color:var(--primary) !important;
+}
+
+/* Footer */
+
+footer span{
+  cursor: pointer;
+}
+
+/* Top Button */
+
+.top-btn .btn {
+  background-color: black;
+  position: fixed;
+  right: 15px;
+  bottom: 60px;
+  padding: 8px 12px;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  z-index:999;
+}
+
+/* Blog */
+
+.blog .blog-title{
+  left:95px;
+}
+
+.blog .date{
+  top:20px;
+  padding:22px 18px 22px 18px;
+}
+
+.demo:hover{
+  color:var(--primary) !important;
+  cursor: pointer;
+}
+
+.blog-head:hover{
+  color:var(--primary) !important;
+  cursor: pointer;
+}
+
+.read-more:hover{
+  cursor: pointer;
+}
+
+/* About Us */
+
+.about{
+  background-image: url(../images/aboutusgrape.avif);
+  background-position: 0px 90px;
+  background-repeat: no-repeat;
+}
+
+.aboutushome{
+  background-image: url(../images/aboutushome.webp);
+  background-position: 100% 99%;
+  background-repeat: no-repeat;
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+/* Contact-Form */
+
+.contact-left h4 {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  font-size: 25px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.contact-form .cont-data {
+  color: #646057;
+  font-size: 16px;
+  line-height: 26px;
+  width: auto;
+  overflow: hidden;
+}
+
+.cont-icon{
+    font-size: 2rem;
+    width: 3.5rem;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.contact-form h3 {
+  font-size: 34px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.form-group{
+  margin-bottom:1rem;
+}
+
+form .form-control-label {
+  font-size: 18px;
+  line-height: 26px;
+  color: #000;
+  font-weight: 450;
+  padding-top: 0.625rem;
+  padding:10px 15px 0px;
+  margin:0 0 8px;
+}
+
+.send-btn:hover{
+  background-color: #000 !important;
+}
